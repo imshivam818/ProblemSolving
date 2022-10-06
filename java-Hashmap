@@ -1,0 +1,41 @@
+//how to deaclare or create a hashmap in java
+HashMap<String, Integer> map = new HashMap<>();
+
+//how to put elemnets into hashmap
+map.put(a[i]);
+
+//how to get an elemnt
+map.get(a[i]);
+
+//how to chech if the element is present in hashmap or not
+...if the elemnt is there it will say as true elese fls.
+if(map.containsKeys()==true){
+        map.put or map.get or map.remove();//it is to remove the else
+}
+//pt to remeber
+ALWAYS USE INTEGER CHARACTER FULL NAME AS THEY CAN CONTAIN NULL VALUE
+which in case of int and cahr will give us the wrong output 
+
+
+//key set
+//how to make or acces keys in hasmap
+Set<stiring >Keys=map.keysSet();
+for(string key:keys){
+S.O.p(key);
+
+//OUTPUT OF THIS CODE;
+india 
+australus
+paki
+sri
+
+if the hasmpa INPUT IS LIKE THIS
+india 100
+aurtela 200
+paki mc 0
+sri lanka  111
+}
+
+
+
+//ALL FUNCTION WILL WORK IN O(1);
