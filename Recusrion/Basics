@@ -1,0 +1,19 @@
+1. //recursion=repeatition of same function again again 
+
+// we will do three things while solving  a problem using recursion 
+1. have faith or assume that rcursion will do this work for me
+2. what is expected?
+   the expectaion like we have to print n to 1 numbers
+   p(5)->5,4,3,2,1
+3.now faith will meet with excpectaion
+   p(5)->
+        it will call our funtion which is P(n-1);    
+        p(4)
+             -> p(3) 
+                   ->p(2)
+                       ->p(1)
+                             ->p(0)
+                              now here comes our base case to stop the call
+                              and that is if n==0 we will return .
+   Now we are able to slve the questio with the help of recusrion
+   
